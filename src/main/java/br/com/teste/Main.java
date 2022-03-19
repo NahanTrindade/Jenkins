@@ -13,20 +13,20 @@ class Valor{
 
     public boolean verificaImpar(){
         if(this.getValor() %2 != 0){
-            System.out.printf("%d é Impar", this.getValor());
+            System.out.printf("%d é Impar\n", this.getValor());
             return true;
         }else{
-            System.out.printf("%d não é Impar", this.getValor());
+            System.out.printf("%d não é Impar\n", this.getValor());
             return false;
         }
     }
 
     public boolean verificaPar(){
         if(this.getValor() %2 == 0){
-            System.out.printf("%d é Par", this.getValor());
+            System.out.printf("%d é Par\n", this.getValor());
             return true;
         }else{
-            System.out.printf("%d não é Par", this.getValor());
+            System.out.printf("%d não é Par\n", this.getValor());
             return false;
         }
     } 
