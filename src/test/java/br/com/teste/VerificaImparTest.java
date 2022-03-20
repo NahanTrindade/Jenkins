@@ -11,7 +11,7 @@ public class VerificaImparTest {
     @Test
     public void testeVerificandoSeParEhImpar() {
         valorTest = new Valor(10);
-        assertEquals(valorTest.verificaImpar(), true);
+        assertEquals(valorTest.verificaImpar(), false);
     }
 
     @Test
