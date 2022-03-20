@@ -14,7 +14,7 @@ class Valor{
     public boolean verificaImpar(){
         if(this.getValor() %2 != 0){
             System.out.printf("%d é Impar\n", this.getValor());
-            return true;
+            return true
         }else{
             System.out.printf("%d não é Impar\n", this.getValor());
             return false;
