@@ -24,7 +24,7 @@ class Valor{
     public boolean verificaPar(){
         if(this.getValor() %2 == 0){
             System.out.printf("%d é Par\n", this.getValor());
-            return true
+            return true;
         }else{
             System.out.printf("%d não é Par\n", this.getValor());
             return false;
