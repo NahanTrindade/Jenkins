@@ -1,0 +1,5 @@
+FROM maven
+WORKDIR /verifica
+COPY src /verifica/src
+COPY pom.xml /verifica
+ENTRYPOINT ["mvn", "test"]
